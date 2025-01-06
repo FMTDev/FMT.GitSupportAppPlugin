@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GitSupportAppPlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+26f98165b903c509ca34ad63c06cf6d9e788e9e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e028901528c21fe0de5e8f5c23833e073e592efd")]
 [assembly: System.Reflection.AssemblyProductAttribute("GitSupportAppPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GitSupportAppPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
