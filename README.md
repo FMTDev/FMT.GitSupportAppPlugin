@@ -1,1 +1,2 @@
-# FMT Dev Repo
+# FMT.GitSupportAppPlugin for Frostbite Modding Tool
+
