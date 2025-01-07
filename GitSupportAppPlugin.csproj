@@ -4,6 +4,7 @@
     <TargetFramework>net8.0-windows</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+	<UseWPF>true</UseWPF>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,7 +12,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Libraries\FrostySdk\FrostySdk.csproj" />
+    <Reference Include="FMT.FileTools">
+      <HintPath>References\FMT.FileTools.dll</HintPath>
+    </Reference>
+    <Reference Include="FMT.InitfsSupport">
+      <HintPath>References\FMT.InitfsSupport.dll</HintPath>
+    </Reference>
+    <Reference Include="FMT.PluginInterfaces">
+      <HintPath>References\FMT.PluginInterfaces.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
