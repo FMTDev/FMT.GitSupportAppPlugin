@@ -1,9 +1,4 @@
-﻿using FrostySdk.Frostbite.PluginInterfaces;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using FMT.PluginInterfaces;
 using System.Windows;
 
 namespace GitSupportAppPlugin
@@ -14,7 +9,11 @@ namespace GitSupportAppPlugin
         public string IconType => "Github";
         public Action SelectedAction => () =>
         {
-            MessageBox.Show("Yo from GitHubSupport");
+            MessageBox.Show("Hello from GitSupport");
         };
+
+        public bool IsVisible => true;
+
+        public bool IsEnabled => false;
     }
 }
