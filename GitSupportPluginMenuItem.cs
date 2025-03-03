@@ -12,7 +12,7 @@ namespace GitSupportAppPlugin
             MessageBox.Show("Hello from GitSupport");
         };
 
-        public bool IsVisible => true;
+        public bool IsVisible => false;
 
         public bool IsEnabled => false;
     }
