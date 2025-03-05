@@ -14,10 +14,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-	  <PackageReference Include="Octokit" Version="13.0.1" />
-	  <PackageReference Include="FMT.InitfsSupport" Version="2025.01.13" />
-	  <PackageReference Include="FMT.FileTools" Version="2025.01.13" />
-	  <PackageReference Include="FMT.PluginInterfaces" Version="2025.01.13" />
+	  <PackageReference Include="Octokit" Version="14.0.0" />
+	  <PackageReference Include="FMT.InitfsSupport" Version="2025.3.5.1624" />
+	  <PackageReference Include="FMT.FileTools" Version="2025.3.5.1624" />
+	  <PackageReference Include="FMT.PluginInterfaces" Version="2025.3.5.1624" />
   </ItemGroup>
 
 </Project>
