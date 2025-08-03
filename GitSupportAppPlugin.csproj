@@ -15,9 +15,9 @@
 
   <ItemGroup>
 	  <PackageReference Include="Octokit" Version="14.0.0" />
-	  <PackageReference Include="FMT.InitfsSupport" Version="2025.3.5.1624" />
-	  <PackageReference Include="FMT.FileTools" Version="2025.3.5.1624" />
-	  <PackageReference Include="FMT.PluginInterfaces" Version="2025.3.5.1624" />
+	  <PackageReference Include="FMT.InitfsSupport" Version="2025.7.2.18001" />
+	  <PackageReference Include="FMT.FileTools" Version="2025.7.2.18001" />
+	  <PackageReference Include="FMT.PluginInterfaces" Version="2025.7.2.18001" />
   </ItemGroup>
 
 </Project>
