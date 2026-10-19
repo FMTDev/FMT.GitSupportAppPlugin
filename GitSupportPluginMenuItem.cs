@@ -15,5 +15,9 @@ namespace GitSupportAppPlugin
         public bool IsVisible => false;
 
         public bool IsEnabled => false;
+
+        public string ParentText => "GitHub";
+
+        public string HeaderToolTip => "GitHub";
     }
 }

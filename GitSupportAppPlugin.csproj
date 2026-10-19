@@ -15,10 +15,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="FMT.Core" Version="2026.14.1" />
+	  <PackageReference Include="FMT.Hash" Version="2026.3.28.12001" />
 	  <PackageReference Include="Octokit" Version="14.0.0" />
-	  <PackageReference Include="FMT.InitfsSupport" Version="2025.10.13.8001" />
-	  <PackageReference Include="FMT.FileTools" Version="2025.99.1.1" />
-	  <PackageReference Include="FMT.PluginInterfaces" Version="2025.10.13.8071" />
+	  <PackageReference Include="FMT.InitfsSupport" Version="2026.11.0" />
+	  <PackageReference Include="FMT.FileTools" Version="2026.11.0" />
+	  <PackageReference Include="FMT.PluginInterfaces" Version="2026.15.0" />
   </ItemGroup>
 
 </Project>
